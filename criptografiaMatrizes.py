@@ -9,26 +9,24 @@ def interface():
         print("3. testar a matriz")
         print("4. Parar o programa:")
         op = int(input("Digite a opção: "))
-        if op == 1:
+        if op != 4:
             chave = eval(input("Digite a matriz chave: "))
-            matriz = eval(input("Digite a matriz criptografada: "))
-            print(discriptografar(chave, matriz))
+            if op == 1:
+                matriz = eval(input("Digite a matriz criptografada: "))
+                print(discriptografar(chave, matriz))
 
-        elif op == 2:
-            chave = eval(input("Digite a matriz chave: "))
-            frase = input("Digite a frase: ")
-            print(criptografar(chave, frase))
-        
-        elif op == 3:
-            chave = eval(input("Digite a matriz chave: "))
-            inversivel(chave, True)
+            elif op == 2:
+                frase = input("Digite a frase: ")
+                print(criptografar(chave, frase))
+            
+            elif op == 3:
+                inversivel(chave, True)
 
-        elif op == 4:
-            break
+            else:
+                print("Opção inválida!!!!")
 
         else:
-            print("Opção inválida!!!!")
-        print("\n")
+            break
 
 
 def inversivel(mat, mostrar=False):
