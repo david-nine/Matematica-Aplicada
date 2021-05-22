@@ -1,9 +1,3 @@
-'''
-David Hildebrandt
-Camila Lima
-Amanda Strutz
-'''
-
 import numpy as np
 import math
 
