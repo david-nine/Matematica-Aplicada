@@ -28,3 +28,8 @@ Desenha graficos do seno, coseno e tangente de um certo triangulo
 ### Algoritimo de ordenação
 
 Um pequeno algoritimo de ordenacao de listas
+
+### Multiplica matrizes
+
+Multiplica duas matrizes e gera um gráfico, as matrizes tem que ser passadas
+via cógigo
