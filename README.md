@@ -32,4 +32,4 @@ Um pequeno algoritimo de ordenacao de listas
 ### Multiplica matrizes
 
 Multiplica duas matrizes e gera um gráfico, as matrizes tem que ser passadas
-via cógigo
+via código
